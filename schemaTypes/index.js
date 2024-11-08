@@ -13,4 +13,5 @@ import sobreTenebrios from "./sobreTenebrios"
 import vantagens from "./vantagens"
 import contato from "./contato"
 
-export const schemaTypes = [nossaHistoria, missaoEValores, parceiros, sustentabilidade, trabalhoSolidario, nossaProducao, nossosProdutos, catalogoProdutos, produtos, cicloVida, produtosTene, sobreTenebrios, vantagens, contato]
+export const schemaTypes = [nossaHistoria, missaoEValores, parceiros, sustentabilidade, trabalhoSolidario, nossaProducao,
+                             nossosProdutos, catalogoProdutos, produtos, cicloVida, produtosTene, sobreTenebrios, vantagens, contato]
