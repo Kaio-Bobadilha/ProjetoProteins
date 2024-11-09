@@ -11,18 +11,10 @@ export default {
         description: 'Título da seção "Missão e Valores"',
       },
       {
-        name: 'cards',
-        type: 'array',
-        title: 'Cards de Missão e Valores',
-        of: [
-          {
-            type: 'object',
-            fields: [
-              { name: 'title', type: 'string', title: 'Título do Card' },
-              { name: 'description', type: 'text', title: 'Descrição do Card' },
-            ],
-          },
-        ],
+        name: 'description',
+        type: 'string',
+        title: 'Descrição',
+        description: 'Descrição da seção "Missão e Valores"',
       },
     ],
   }
