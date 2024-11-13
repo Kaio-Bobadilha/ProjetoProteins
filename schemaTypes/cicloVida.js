@@ -1,38 +1,19 @@
 export default {
-  name: 'cicloDeVida',
+  name: 'vicloDeVida',
   type: 'document',
   title: 'Ciclo de Vida',
   fields: [
-    {
-      name: 'titulo',
-      type: 'string',
-      title: 'Título',
-      description: 'Título da seção "Ciclo de Vida"'
-    },
-    {
-      name: 'estagios',
-      type: 'array',
-      title: 'Estágios',
-      of: [
         {
-          type: 'object',
-          fields: [
-            {
-              name: 'nome',
-              type: 'string',
-              title: 'Nome do estágio'
-            },
-            {
+          name: 'nome',
+          type: 'string',
+          title: 'Nome do estágio',
+          description: 'Nome do produto'
+        },
+          {
               name: 'imagem',
               type: 'image',
               title: 'Imagem do estágio',
-              options: {
-                hotspot: true
-              }
-            }
-          ]
-        }
-      ]
-    }
-  ]
+              description: 'Imagem do animal'
+          }
+    ]
 };
