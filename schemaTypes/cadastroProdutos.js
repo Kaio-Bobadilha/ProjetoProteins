@@ -1,4 +1,3 @@
-// schemas/cadastroProdutos.js
 export default{
     name: 'paginaInicial',
     type: 'document',

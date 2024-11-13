@@ -8,21 +8,12 @@ export default {
         name: 'title',
         type: 'string',
         title: 'Título',
-        description: 'Título da seção "Parceiros"',
       },
       {
-        name: 'partners',
-        type: 'array',
+        name: 'parceiros_image',
+        type: 'image',
         title: 'Lista de Parceiros',
-        of: [
-          {
-            type: 'object',
-            fields: [
-              { name: 'name', type: 'string', title: 'Nome do Parceiro' },
-              { name: 'logo', type: 'image', title: 'Logo do Parceiro' },
-            ],
-          },
-        ],
+        
       },
     ],
   }

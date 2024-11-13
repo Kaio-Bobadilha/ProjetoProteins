@@ -1,7 +1,7 @@
 export default {
-    name: 'produtos',
+    name: 'produtos-tene',
     type: 'document',
-    title: 'Produtos',
+    title: 'Produtos Tenebres',
     fields: [
       {
         name: 'titulo',
